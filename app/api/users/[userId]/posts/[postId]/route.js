@@ -1,6 +1,9 @@
+import { UserModel } from "@/models/user.model"
 import { NextResponse } from "next/server"
 
 export async function DELETE(request,{params}){
-    const {userId,postId} = params
-    return NextResponse.json({userId,postId})
+    try {
+    } catch (error) {
+        
+    }
 }
